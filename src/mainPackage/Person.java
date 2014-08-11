@@ -4,20 +4,11 @@ public class Person {
 	
 	private String name;
 	private int age;
-	private String email;
+	
 	
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 
